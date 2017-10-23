@@ -12,6 +12,9 @@ namespace MatchingParanthesisTest
         {
             var testing = new Matching();
 
+            string strTest = "((45+)^*&$)(";
+
+            bool result = testing.hasMatches(strTest);
         }
     }
 }
