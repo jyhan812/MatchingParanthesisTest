@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MatchingParenthesis;
 
 namespace MatchingParanthesisTest
 {
@@ -9,8 +10,7 @@ namespace MatchingParanthesisTest
         [TestMethod]
         public void MatchTest()
         {
-            var testing = new MatchingParenthesis();
-
+            var testing = new Matching();
 
         }
     }
