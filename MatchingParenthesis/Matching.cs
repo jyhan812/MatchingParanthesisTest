@@ -44,7 +44,7 @@ namespace MatchingParenthesis
                 if (ch.ToString() == "(")
                 {
                     hasleftPar = true;
-                    string substr = str.Substring(leftpos, str.Length);
+                    string substr = str.Substring(leftpos, str.Length - leftpos);
 
                     int rightpos = leftpos;
                     char[] subchars = substr.ToCharArray();
