@@ -11,7 +11,7 @@ namespace MatchingParanthesisTest
         {
             var testing = new Matching();
 
-            string strTest = ")(";
+            string strTest = "()()()()";
 
             bool result = testing.hasMatches(strTest);
         }
