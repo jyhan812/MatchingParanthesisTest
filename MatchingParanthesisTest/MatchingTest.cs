@@ -9,6 +9,8 @@ namespace MatchingParanthesisTest
         [TestMethod]
         public void MatchTest()
         {
+            var testing = new MatchingParenthesis();
+
 
         }
     }
