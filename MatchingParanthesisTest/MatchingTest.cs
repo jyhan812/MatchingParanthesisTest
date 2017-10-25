@@ -13,7 +13,7 @@ namespace MatchingParanthesisTest
 
             string input = "()()()";
 
-            Assert.AreEqual(true, testing.hasMatches(input));
+            Assert.AreEqual(false, testing.hasMatches(input));
            
         }
     }
