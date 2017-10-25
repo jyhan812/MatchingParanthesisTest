@@ -11,9 +11,10 @@ namespace MatchingParanthesisTest
         {
             var testing = new Matching();
 
-            string strTest = "(((())())";
+            string input = "(((())())";
 
-            bool result = testing.hasMatches(strTest);
+            Assert.AreEqual(true, testing.hasMatches(input));
+           
         }
     }
 }
