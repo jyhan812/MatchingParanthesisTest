@@ -11,9 +11,9 @@ namespace MatchingParanthesisTest
         {
             var testing = new Matching();
 
-            string input = "()()()";
+            string input = "(45*)()3+()()";
 
-            Assert.AreEqual(false, testing.hasMatches(input));
+            Assert.AreEqual(true, testing.hasMatches(input));
            
         }
     }
